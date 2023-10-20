@@ -1,6 +1,6 @@
 from fastapi import APIRouter, Depends, HTTPException
 from typing import List
-from models import task  # models.py
+from db.models import db.task  # models.py
 # -- IMPORT SERVICE --
 # from ..dependencies import get_item_service
 # -- IMPORT INTERFACE SERVICE --
